@@ -1,0 +1,150 @@
+@media (max-width: 575.98px) { 
+    body{
+        background-color: #ADD2EB;
+        
+    }
+    .page{
+        background-color: #D0BDF4;
+        text-align: center;
+        height: max-content;
+        border-radius: 1.5rem;
+        width: 90%;
+        font-family: Montserrat;
+        margin-left: 5%;
+        box-shadow: 10px 10px 10PX  #494D5F;
+        background-image: url("\\images\\phone.jfif");
+    }
+    header{
+        padding-top: 20%;
+        padding-bottom: 10%;
+        font-family: Montserrat;
+        color: #326a78;
+        font-size: 2.5rem;
+    }
+
+    label{
+        font-size: 1.5rem;
+    }
+    input{
+        height: 2.5rem;
+        text-align: center;
+        border-color:#D0BDF4 ;
+        border-radius: .5rem;
+        margin: 10px;
+        font-size: 1.3rem;
+        font-family: Montserrat;
+    }
+    Button{
+        height: 2rem;
+        width: 20%;
+        font-family: Montserrat;
+        background-color: white;
+        border: 1px solid rgb(223, 215, 215);
+        box-shadow: 5px 5px 5px rgb(134, 129, 129);
+        
+    }
+    .weather-result{
+        text-align: center;
+        
+    }
+    .result{
+        display: inline-block;
+        padding: 20px;
+        height: 8rem;
+        width: 60%;
+        background-color:#f9fafc;
+        margin-top: 50px;
+        border-radius: 1.5rem;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        box-shadow: 10px 10px 10px rgb(0, 0, 0);
+        line-height: 1.5rem;
+        background-image: url("\\images\\bgg.png");
+        font-size: 1rem;
+        text-decoration: solid;
+        color:lavender;
+    }
+    section{
+        font-size: 1.5rem;
+        color: white;
+        
+    }
+    form{
+        padding-bottom: 500px;
+    }
+ }
+ @media screen and (min-width:600px) {
+    
+
+ body{
+    background-color: #ADD2EB;
+    
+}
+form{
+    padding-bottom: 400px;
+}
+header{
+    padding-top: 3rem;
+        padding-bottom: 2.5rem;
+        font-family: Montserrat;
+        color : #2d545e;
+        font-size: 2.5rem;
+} 
+.page{
+    background-color: #D0BDF4;
+    text-align: center;
+    height: max-content;
+    border-radius: 1.5rem;
+    width: 90%;
+    font-family: Montserrat;
+    margin-left: 5%;
+    box-shadow: 10px 10px 10PX  #494D5F;
+    background-image: url("\\images\\background.jpg");
+}
+.result{
+    display: inline-block;
+    width: 40%;
+    background-color:#f9fafc ;
+    height: 12rem;
+    margin: 1rem;
+    border-radius: 1.5rem;
+    font-family: Montserrat;
+    background-image: url("\\images\\bgg.png");
+    color: lavender;
+    font-size: 1.3rem;
+    box-shadow: 10px 10px 10px black;
+}
+section{
+    font-size: 1.5rem;
+    color: #f8fbfc;
+    margin: 20px;
+    
+}
+.index{
+    z-index: 1;
+}
+Button{
+    height: 2rem;
+    width: 10%;
+    font-family: Montserrat;
+    background-color: white;
+    border: 1px solid rgb(223, 215, 215);
+    box-shadow: 5px 5px 5px rgb(134, 129, 129);
+    
+}
+label{
+    font-size: 1.5rem;
+}
+input{
+    height: 2.5rem;
+    text-align: center;
+    border: 0;
+    border-radius: .5rem;
+    margin: 10px;
+    font-size: 1.3rem;
+    font-family: Montserrat;
+}
+ }
+button:hover{
+    opacity: 0.7;
+}
